@@ -23,6 +23,12 @@ Gostaria de agradecer ao Felix por me fornecer a oportunidade de trabalhar neste
 
 Também gostaria de agradecer à IA Bing por me ajudar durante o processo de desenvolvimento. A experiência que ganhei com este projeto foi inestimável.
 
+## Visualizar Projeto
+
+Você pode visualizar o projeto ao vivo aqui.
+
+[Projeto Eletricista](https://felixfreitasjr.github.io/Projeto-Freitas-eletricista/)
+
 ## Contato
 
 Se você tiver alguma dúvida sobre este projeto ou quiser entrar em contato comigo, sinta-se à vontade para me enviar uma mensagem.
