@@ -9,7 +9,7 @@ body, .navbar {
 
 /* Define a imagem de fundo para o cabeçalho */
 .header-image {
-    background: url('../_imagens/teste.jpg') no-repeat center center; 
+    background: url('teste.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -99,7 +99,7 @@ body, .navbar {
 /* Estilos para telas grandes */
 @media (min-width: 992px) {
     header {
-      background-image: url('../_imagens/teste.jpg');
+      background-image: url('teste.jpg');
       /* outros estilos para telas grandes */
     }
     /* outros seletores e estilos para telas grandes */
@@ -108,7 +108,7 @@ body, .navbar {
 /* Estilos para telas médias */
 @media (min-width: 768px) and (max-width: 991px) {
     header {
-      background-image: url('../_imagens/teste.jpg');
+      background-image: url('teste.jpg');
       /* outros estilos para telas médias */
     }
     /* outros seletores e estilos para telas médias */
@@ -117,7 +117,7 @@ body, .navbar {
 /* Estilos para telas pequenas */
 @media (max-width: 767px) {
     header {
-      background-image: url('../_imagens/Logo.jpeg');
+      background-image: url('Logo.jpeg');
       /* outros estilos para telas pequenas */
     }
     /* outros seletores e estilos para telas pequenas */
