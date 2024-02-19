@@ -1,0 +1,124 @@
+/* Importa as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Titillium+Web&display=swap');
+
+/* Define a cor de fundo e a cor do texto para o corpo da página e a barra de navegação */
+body, .navbar {
+    background-color: #242424 !important;
+    color: #fff !important;
+}
+
+/* Define a imagem de fundo para o cabeçalho */
+.header-image {
+    background: url('../_imagens/teste.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px; /* Ajuste este valor para a altura desejada */
+    width: 100%;
+}
+
+/* Define o padding para o container */
+.container {
+    padding-top: 60px; /* Ajuste este valor para mover o grid para cima ou para baixo */
+    padding-bottom: 60px; /* Adiciona espaço abaixo de cada seção */
+}
+
+/* Define o padding para as seções */
+.sobre, .depoimento, .social, .contato {
+    padding-top: 2%; /* Ajuste este valor para aumentar ou diminuir a margem */
+}
+
+/* Define os estilos para os ícones das redes sociais */
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff; /* Altere para a cor desejada */
+    font-size: 30px; /* Ajuste o tamanho do ícone aqui */
+}
+
+/* Define a cor ao passar o mouse sobre os ícones das redes sociais */
+.social-icon:hover {
+    color: #007bff; /* Altere para a cor desejada ao passar o mouse */
+}
+
+/* Define os estilos para os elementos com a classe 'scroll-animado' */
+.scroll-animado {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+
+/* Define os estilos para os elementos com a classe 'scroll-animado' quando a classe 'mostrar' é adicionada */
+.scroll-animado.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Define os estilos para o rodapé das redes sociais */
+.meu-social-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    background-color: #333;
+    color: white;
+}
+
+/* Alinha as informações de contato à esquerda */
+.meu-social-footer .meu-contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Alinha os ícones das redes sociais à direita */
+.meu-social-footer .meu-social-icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; /* Garante que os ícones das redes sociais ocupem todo o espaço disponível */
+}
+
+/* Define os estilos para o texto de direitos autorais */
+.meu-social-footer .meu-copyright {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+/* Define a cor para os links no texto de direitos autorais */
+.meu-copyright a{
+  color: white;
+}
+
+/* Define a cor para o link do item de menu ativo */
+.nav-item.ativo .nav-link {
+    color: blue; /* Altere para a cor desejada */
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 992px) {
+    header {
+      background-image: url('../_imagens/teste.jpg');
+      /* outros estilos para telas grandes */
+    }
+    /* outros seletores e estilos para telas grandes */
+}
+
+/* Estilos para telas médias */
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+      background-image: url('../_imagens/teste.jpg');
+      /* outros estilos para telas médias */
+    }
+    /* outros seletores e estilos para telas médias */
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 767px) {
+    header {
+      background-image: url('../_imagens/Logo.jpeg');
+      /* outros estilos para telas pequenas */
+    }
+    /* outros seletores e estilos para telas pequenas */
+}
